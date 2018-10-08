@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ftlabs/template-react/issues"
   },
-  "homepage": "https://github.com/ftlabs/template-react#readme"
+  "homepage": "https://github.com/ftlabs/template-react#readme",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
 }
