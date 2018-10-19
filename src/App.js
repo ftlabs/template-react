@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "react-dom";
+import { hydrate } from "react-dom";
 
 class App extends React.Component {
   render() {
@@ -7,4 +7,4 @@ class App extends React.Component {
   }
 }
 
-render(React.createElement(App), document.getElementById("root"));
+hydrate(React.createElement(App), document.getElementById("root"));
