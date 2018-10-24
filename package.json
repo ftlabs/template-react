@@ -21,9 +21,11 @@
   },
   "homepage": "https://github.com/ftlabs/template-react#readme",
   "dependencies": {
+    "compression": "^1.7.3",
     "express": "^4.16.4",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
